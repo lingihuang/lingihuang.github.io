@@ -1,0 +1,193 @@
+@import "mixins.less";
+
+/********************
+About Me
+********************/
+.profile {
+	margin: 10px 0;
+	position: relative;
+	.profile-heading {
+		background: #eee;
+		.border-radius(5px, 5px, 0, 0);
+		color: #666;
+		font-size: 1.38em;
+		position: relative;
+		margin: 0;
+		padding: 10px;
+		text-transform: uppercase;
+		z-index: 1;
+	}
+	&:before {
+		border-right: 10px solid #ccc;
+		border-top: 10px solid transparent;
+		border-bottom: 10px solid transparent;
+		content: "";
+		left: 0;
+		position: absolute;
+		top: 35px;
+	}
+	&:after {
+		border-left: 10px solid #ccc;
+		border-top: 10px solid transparent;
+		border-bottom: 10px solid transparent;
+		content: "";
+		position: absolute;
+		right: 0;
+		top: 35px;
+	}
+	.profile-body {
+		background: #fafafa;
+		margin: 0 10px;
+		padding: 10px;
+	}
+}
+.profile-about-me {
+	margin-top: 0;
+	&:before {
+		border: none;
+	}
+	&:after {
+		border: none;
+	}
+	.profile-body {
+		margin: 0;
+	}
+	.media {
+		&:after {
+			clear: both;
+			content: "";
+			display: block;
+		}
+		.media-thumb {
+			background: #fff;
+			border: 1px solid #ccc;
+			.box-sizing(border-box);
+			margin: 0 20px 0 0;
+			max-height: 231px;
+			max-width: 184px;
+			padding: 5px;
+		}
+		.media-object {
+			border: 1px dotted #ccc;
+			.box-sizing(border-box);
+			display: block;
+			height: 100%;
+			margin: 0;
+			padding: 0 10px;
+			width: 100%;
+		}
+	}
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		li {
+			font-size: 1em;
+			margin: 0;
+			padding: 10px 0;
+		}
+		span {
+			white-space: nowrap;
+		}
+	}
+	.label {
+		color: #666;
+		display: inline-block;
+		text-transform: uppercase;
+		width: 15%;
+	}
+}
+.experience-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	.experience {
+		margin: 0;
+		padding: 10px 0;
+		&:after {
+			clear: both;
+			content: "";
+			display: block;
+		}
+	}
+	.experience-main {
+		float: left;
+		width: 30%;
+		.experience-title {
+			font-size: 1em;
+			margin: 0;
+			padding: 0 0 1px 0;
+		}
+		.experience-sub {
+			color: #666;
+			font-size: 0.9em;
+			padding: 0 0 8px 0;
+		}
+	}
+	.experience-body {
+		float: left;
+		width: 70%;
+		.experience-title {
+			color: #c50900;
+			font-size: 1em;
+			margin: 0;
+			padding: 0 0 5px 0;
+		}
+		.experience-subtitle {
+			color: #888;
+			font-size: 0.9em;
+			margin: 0;
+			padding: 0;
+		}
+		.experience-content {
+			background: #fff;
+			border-bottom: 2px solid #eee;
+			.border-radius(3px, 3px, 3px, 3px);
+			padding: 8px;
+			margin: 5px 0 0 0;
+			position: relative;
+			&:before {
+				border-bottom: 6px solid #fff;
+				border-left: 6px solid transparent;
+				border-right: 6px solid transparent;
+				content: "";
+				left: 6px;
+				position: absolute;
+				top: -6px;
+			}
+		}
+		p {
+			padding: 0;
+		}
+	}
+	.list {
+		margin: 10px 0 20px 0;
+	}
+	.labels {
+		margin-top: 10px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.profile-about-me {
+		.media {
+			.media-thumb {
+				float: none;
+				max-height: 170px;
+				max-width: 135px;
+			}
+		}
+		.label {
+			width: 30%;
+		}
+		ul {
+			li {
+				padding-bottom: 5px;
+				padding-top: 5px;
+			}
+			span {
+				display: block;
+			}
+		}
+	}
+}

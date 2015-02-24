@@ -1,31 +1,231 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="content-language" content="en-US">
-<meta name="author" content="Vivian Huang">
-<meta name="created" content="2014-06-28">
-<meta name="keywords" content="CSS, HTML, JavaScript, Web Design, Web Development">
-<meta name="description" content="">
-<title>Vivian Crap</title>
-<link type="text/css" rel="stylesheet" href="css/util.css" />
-<link type="text/css" rel="stylesheet" href="css/layout.css" />
-<link type="text/css" rel="stylesheet" href="css/base.css" />
-<style type="text/css">
-		
-</style>
+	<meta charset="utf-8">
+	<meta http-equiv="content-language" content="en-US">
+	<meta name="author" content="Vivian Huang" />
+	<meta name="keywords" content="Web Design, Web Development, HTML, CSS, JavaScript" />
+	<meta name="description" content="" />
+	<title>Vivian Crap</title>
+	<link rel="stylesheet" href="css/default.css" media="all">
+	<link rel="stylesheet" href="css/about_me.css" media="all">
+	<script type="text/javascript" src="libs/jquery/jquery-1.11.0.js"></script>
+	<script type="text/javascript" src="js/util.js"></script>
 </head>
 
 <body>
-	<div class="layout-wrapper">
-		<div class="layout-header">
-			<a href="/"><img class="logo" src="images/logo_vivian.png" alt="Vivian Crap" title="Vivian Crap"></a>
+	<div class="wrapper">
+		<div class="top-header">
+			<div class="main">
+				<a class="logo" href="/"><img class="logo" src="images/logo_vivian.png" hight="125" width="250" alt="Vivian Crap" title="Vivian Crap"></a>
+				<a class="navbar-btn" href="#"><span class="icon"></span></a>
+			</div>
 		</div>
-		<div class="layout-body">
-			<div class="layout-main"></div>
-			<div class="layout-side"></div>
+		<div class="body-content">
+			<div class="main">
+				<div class="profile profile-about-me">
+					<div class="profile-body">
+						<div class="media">
+							<div class="media-thumb pull-left"><img class="media-object" src="images/thumb_profile.png"></div>
+							<div class="media-body">
+								<ul>
+									<li>
+										<span class="label">Name</span>
+										<span>Vivian Huang</span>
+									</li>
+									<li>
+										<span class="label">Born</span>
+										<span>6 November, 1978</span>
+									</li>
+									<li>
+										<span class="label">E-mail</span>
+										<span>lingihuang@hotmail.com</span>
+									</li>
+									<li>
+										<span class="label">Website</span>
+										<span>www.lingihuang.com</span>
+									</li>
+									<li>
+										<span class="label">Location</span>
+										<span>New Taipei City, Taiwan</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="profile">
+					<h2 class="profile-heading">Work Experiences</h2>
+					<div class="profile-body">
+						<ul class="experience-list">
+							<li class="experience">
+								<div class="experience-main">
+									<h3 class="experience-title">miiiCasa Inc.</h3>
+									<div class="experience-sub">Taipei City, Taiwan</div>
+									<div class="experience-sub">June 2011 - Present</div>
+								</div>
+								<div class="experience-body">
+				          			<h4 class="experience-title">Front-end Web Developer</h4>
+									<div class="experience-content">
+				            			<p>miiiCasa was dedicated to provide the home cloud service platform to upload various types of files and manage multiple devices. As a developer in miiiCasa front-end team, I participated in the planning, development and maintenance of the <a href="http://www.miiicasa.com/" target="_blank">miiiCasa.com</a> and <a href="http://www.miiicloud.com/" target="_blank">miiiCloud.com</a> websites.  The followings were my experiences:</p>
+										<ul class="list">
+											<li>Understanding of core front-end web technologies (CSS, HTML and JavaScript).</li>
+											<li>Experience with CSS frameworks such as Bootstrap and Compass.</li>
+											<li>Experience with JavaScript libraries such as jQuery and YUI.</li>
+											<li>Experience with PHP framework such as CodeIgniter.</li>
+											<li>Ability to write reusable components.</li>
+											<li>Experience troubleshooting cross-browser compatibility issues.</li>
+											<li>Comfortable working on a command line.</li>
+											<li>Worked individually, as well as in a team, self-reported and managed my own time.</li>
+										</ul>
+										<ul class="labels">
+											<li class="label"><span class="label-item">Bootstrap</span></li>
+											<li class="label"><span class="label-item">CodeIgniter</span></li>
+											<li class="label"><span class="label-item">Compass</span></li>
+											<li class="label"><span class="label-item">CSS</span></li>
+											<li class="label"><span class="label-item">Fireworks</span></li>
+											<li class="label"><span class="label-item">Git</span></li>
+											<li class="label"><span class="label-item">Handlebars</span></li>
+											<li class="label"><span class="label-item">JavaScript</span></li>
+											<li class="label"><span class="label-item">jQuery</span></li>
+											<li class="label"><span class="label-item">LESS/SASS</span></li>
+											<li class="label"><span class="label-item">PHP</span></li>
+											<li class="label"><span class="label-item">YUI</span></li>
+										</ul>
+									</div>
+				        		</div>
+				  			</li>
+							<li class="experience">
+								<div class="experience-main">
+									<h3 class="experience-title">Olemap Inc.</h3>
+									<div class="experience-sub">New Taipei City, Taiwan</div>
+									<div class="experience-sub">September 2008 - June 2011</div>
+								</div>
+				        		<div class="experience-body">
+									<h4 class="experience-title">Front-end Web Developer</h4>
+									<div class="experience-content">
+										<p>OleMap was a technology company specializing in the development of a map-based service platform. As a front-end engineer, I participated in the design, development and maintenance of <a href="http://www.urmap.com/" target="_blank">UrMap.com</a> and <a href="http://www.urmap.com/painter/" target="_blank">UrPainter</a> sites. I worked with product owners, back-end developers to ensure the end result works for our clients and users. The followings were my experiences:</p>
+										<ul class="list">
+											<li>Understanding of core front-end web technologies (CSS, HTML and JavaScript).</li>
+											<li>Experience developing with CSS, HTML, and JavaScript.</li>
+											<li>Experience with JavaScript libraries such as jQuery, jQuery UI, and YUI.</li>
+											<li>Ability to write reusable components.</li>
+											<li>Experience troubleshooting cross-browser compatibility issues.</li>
+											<li>Ability to disign layouts with Photoshop and transform files to web pages.</li>
+										</ul>
+										<ul class="labels">
+											<li class="label"><span class="label-item">CSS</span></li>
+											<li class="label"><span class="label-item">JavaScript</span></li>
+											<li class="label"><span class="label-item">jQuery</span></li>
+											<li class="label"><span class="label-item">jQuery UI</span></li>
+											<li class="label"><span class="label-item">Photoshop</span></li>
+											<li class="label"><span class="label-item">SVN</span></li>
+											<li class="label"><span class="label-item">YUI</span></li>
+										</ul>
+									</div>
+				        		</div>
+				      		</li>
+							<li class="experience">
+								<div class="experience-main">
+									<h3 class="experience-title">Leadtek Inc.</h3>
+									<div class="experience-sub">New Taipei City, Taiwan</div>
+									<div class="experience-sub">March 2008 - August 2008</div>
+								</div>
+								<div class="experience-body">
+									<h4 class="experience-title">Front-end Web Developer</h4>
+									<div class="experience-content">
+										<p>Functionality planning, development and tesing.</p>
+										<ul class="labels">
+											<li class="label"><span class="label-item">CSS</span></li>
+											<li class="label"><span class="label-item">HTML</span></li>
+											<li class="label"><span class="label-item">JavaScript</span></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li class="experience">
+								<div class="experience-main">
+									<h3 class="experience-title">Xinzhuang Farmers' Association</h3>
+									<div class="experience-sub">New Taipei City, Taiwan</div>
+									<div class="experience-sub">June 2001 - October 2002</div>
+								</div>
+								<div class="experience-body">
+									<h4 class="experience-title">Banking Developer</h4>
+									<div class="experience-content">
+										<p>Develop and maintain banking code with COBOL, such as banking savings, loaning, accounting and so on.</p>
+										<ul class="labels">
+											<li class="label"><span class="label-item">COBOL</span></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="profile">
+  					<h2 class="profile-heading">Education</h2>
+  					<div class="profile-body">
+						<ul class="experience-list">
+							<li class="experience">
+								<div class="experience-main">
+									<h3 class="experience-title">Academy Art of University</h3>
+									<div class="experience-sub">San Francisco, CA</div>
+									<div class="experience-sub">January 2003 - December 2006</div>
+								</div>
+								<div class="experience-body">
+									<h4 class="experience-title">Computer Arts/New Media</h4>
+									<h5 class="experience-subtitle">MFA</h5>
+								</div>
+							</li>
+							<li class="experience">
+								<div class="experience-main">
+									<h3 class="experience-title">Ming Chuan University</h3>
+									<div class="experience-sub">Taipei City, Taiwan</div>
+									<div class="experience-sub">September 1997 - June 2001</div>
+								</div>
+								<div class="experience-body">
+									<h4 class="experience-title">Information Management</h4>
+									<h5 class="experience-subtitle">Bachelor's Degree</h5>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="profile">
+					<h2 class="profile-heading">Skills</h2>
+					<div class="profile-body">
+						<ul class="labels">
+							<li class="label"><span class="label-item">Bootstrap</span></li>
+							<li class="label"><span class="label-item">CodeIgniter</span></li>
+							<li class="label"><span class="label-item">Compass</span></li>
+							<li class="label"><span class="label-item">CSS</span></li>
+							<li class="label"><span class="label-item">Fireworks</span></li>
+							<li class="label"><span class="label-item">Git</span></li>
+							<li class="label"><span class="label-item">Handlebars</span></li>
+							<li class="label"><span class="label-item">HTML</span></li>
+							<li class="label"><span class="label-item">JavaScript</span></li>
+							<li class="label"><span class="label-item">jQuery</span></li>
+							<li class="label"><span class="label-item">jQuery UI</span></li>
+							<li class="label"><span class="label-item">LESS/SASS</span></li>
+							<li class="label"><span class="label-item">Photoshop</span></li>
+							<li class="label"><span class="label-item">PHP</span></li>
+							<li class="label"><span class="label-item">SVN</span></li>
+							<li class="label"><span class="label-item">YUI</span></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="sidebar">
+				
+			</div>
 		</div>
-		<div class="layout-footer">
+		<div class="bottom-footer">
+			<p>Copyright &copy; 2014 LINGIHUANG.COM. All rights reserved.</p>
 		</div>
 	</div>
 </body>
