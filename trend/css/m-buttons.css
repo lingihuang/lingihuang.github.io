@@ -9,6 +9,7 @@
 	font: 12px normal Arial;
 	outline: 0;
 	padding: 7px 10px;
+	*padding: 6px 10px;
 	text-align: center;
 	text-decoration: none;
 }

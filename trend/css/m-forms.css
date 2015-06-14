@@ -41,8 +41,10 @@
 }
 .m-form-label {
 	display: inline-block;
+	*display: inline;
 	margin: 0 3px 0 0;
 	min-width: 60px;
+	zoom: 1;
 }
 .m-form-control {
 	border: 1px solid #ccc;
