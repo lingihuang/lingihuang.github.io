@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Trend Micro Exam - Today's Weather</title>
+<link rel="stylesheet" type="text/css" href="../css/base.css">
+<link rel="stylesheet" type="text/css" href="../css/m-forms.css">
+<link rel="stylesheet" type="text/css" href="../css/m-buttons.css">
+<link rel="stylesheet" type="text/css" href="../css/m-icons.css">
+<link rel="stylesheet" type="text/css" href="../css/todayWeatherStyle.css">
+</head>
+
+<body>
+	<h2 class="b-heading">Today's Weather</h2>
+	<form id="weather-form" class="m-form m-form-inline">
+		<div id="weather-message" class="m-form-message is-error hide"></div>
+		<div class="m-form-group">
+			<label class="m-form-label">City:</label>
+			<input class="m-form-control" type="text" value="">
+		</div>
+		<div class="m-form-group">
+			<label class="m-form-label">Country:</label>
+			<input class="m-form-control" type="text" value="">
+		</div>
+		<div class="m-form-action">
+			<button class="m-button">Submit</button>
+		</div>
+		<div id="weather-form-loading" class="b-loading hide"></div>
+	</form>
+	<div id="weather-section" class="section">
+		
+	</div>
+	
+<script type="text/javascript" src="../libs/jquery/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="../js/util.js"></script>
+<script type="text/javascript" src="../js/todayWeatherController.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.section {
+	border: 1px solid #ccc;
+	margin: 20px 0 0 0;
+	padding: 15px;
+}
+.title {
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.sub {
+	display: block;
+	font-size: 12px;
+	margin: 5px 0 10px 0;
+	text-align: center;
+}
+.chart {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 300px;
+	margin: 0 auto;
+	width: auto;
+	padding: 0 60px 0 0;
+}

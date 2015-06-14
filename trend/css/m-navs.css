@@ -1,0 +1,38 @@
+.m-nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.m-nav > li {
+	margin: 0;
+	padding: 0;
+}
+.m-nav > li > a {
+	border: 1px solid #c0c0c0;
+	color: #333;
+	display: block;
+	font: 12px normal Arial;
+	padding: 5px 5px 5px 20px;
+	position: relative;
+	text-decoration: none;
+}
+.m-nav > li.is-active > a,
+.m-nav > li.is-active > a:hover {
+	background: #e7ebff;
+	border-color: #2a9fcd;
+	font-weight: bold;
+}
+.m-nav > li:first-child > a {
+	border-bottom: none;
+	z-index: 1;
+}
+.m-nav > li.is-active:first-child > a:after {
+	background: #2a9fcd;
+	bottom: -1px;
+	content: "";
+	display: block;
+	height: 1px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+}

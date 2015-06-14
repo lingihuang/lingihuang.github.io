@@ -1,0 +1,19 @@
+.m-icon {
+	background: transparent url(../img/icons.png) no-repeat 0 0;
+	display: inline-block;
+	height: 50px;
+	overflow: hidden;
+	width: 50px;
+}
+.m-icon-clear {
+	background-position: -78px -21px;
+}
+.m-icon-cloud {
+	background-position: -78px -382px;
+}
+.m-icon-rain {
+	background-position: -294px -381px;
+}
+.m-icon-none {
+	background-position: -150px -524px;
+}

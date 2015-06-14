@@ -1,0 +1,40 @@
+.m-form {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.m-form-message.hide {
+	display: none;
+}
+.section {
+	position: relative;
+}
+.section > .main {
+	margin: 0 0 15px 0;
+	overflow: hidden;
+}
+.section > .main > .m-icon {
+	float: left;
+}
+.section > .main > .info {
+	margin: 0 0 0 70px;
+}
+.section > .main .title {
+	font-size: 15px;
+	margin: 8px 0 0 0;
+	padding: 0;
+}
+.section > .main .sub {
+	color: #999;
+	margin: 0;
+	padding: 0;
+}
+.section > .info {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+.section > .info > span {
+	display: inline-block;
+}
+.section > .info > .label {
+	width: 100px;
+}
