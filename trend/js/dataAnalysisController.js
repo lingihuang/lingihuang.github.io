@@ -89,9 +89,12 @@ $(function() {
 
 	function queryData() {
 		$.ajax({
-			url      : dataUrl,
-			method   : 'GET',
+			url     : dataUrl,
+			method  : 'GET',
+			dataType: 'json',
 		}).done(function (data, textStatus, jqXHR) {
+			console.log(typeof data);
+			console.log(data);
 			var responseData = [];
 			$.each(data, function(idx, item) {
 				responseData.push(item);
