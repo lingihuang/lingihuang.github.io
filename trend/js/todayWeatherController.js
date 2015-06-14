@@ -46,6 +46,7 @@ $(function() {
 				q     : arr.join(','),
 				units : 'metric'
 			},
+			dataType   : 'jsonp',
 			beforeSend : function (jqXHR, settings) {
 				loadingSel.removeClass(HIDE_CLASS);
 				sectionSel.html('');
