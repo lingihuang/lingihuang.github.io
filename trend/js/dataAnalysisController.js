@@ -1,5 +1,5 @@
 $(function() {
-	var dataUrl = '/data/birth.json',
+	var dataUrl = '../data/birth.json',
 		plot;
 
 	function handleResize(e) {
