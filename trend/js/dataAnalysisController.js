@@ -9,6 +9,10 @@ $(function() {
 		plot.replot({
 			resetAxes: true
 		});
+
+		// TODO: resize the iframe height when window resize event is triggered.
+		// NOT do for performance.
+		//resizeIframe();
 	}
 
 	function resizeIframe() {

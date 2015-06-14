@@ -12,6 +12,10 @@ $(function() {
 		formSel,
 		messageSel;
 
+	function handleResize(e) {
+		resizeIframe();
+	}
+	
 	function handleSubmit(e) {
 		e.preventDefault();
 
@@ -116,5 +120,9 @@ $(function() {
 	messageSel.on('click', '.m-form-close-button', handleClickClose);
 
 	resizeIframe();
+
+	// TODO: resize the iframe height when window resize event is triggered.
+	// NOT do for performance.
+	//$(window).bind('resize', handleResize);
 	
 });
