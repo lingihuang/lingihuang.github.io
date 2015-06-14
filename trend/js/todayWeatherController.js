@@ -16,7 +16,7 @@ $(function() {
 		e.preventDefault();
 
 		var loadingSel = window.TREND.util.getSelector('#weather-form-loading'),
-			sectionSel,
+			sectionSel = window.TREND.util.getSelector('#weather-section'),
 			inputSels,
 			arr;
 
@@ -39,7 +39,6 @@ $(function() {
 			return;
 		}
 
-		sectionSel = window.TREND.util.getSelector('#weather-section');
 		$.ajax({
 			url        : dataUrl,
 			method     : 'GET',
