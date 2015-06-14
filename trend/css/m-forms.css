@@ -91,5 +91,7 @@
 .m-form.m-form-inline .m-form-group,
 .m-form.m-form-inline .m-form-action {
 	display: inline-block;
+	*display: inline;
 	margin-right: 8px;
+	zoom: 1;
 }
