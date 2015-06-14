@@ -2,10 +2,17 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	min-width: 0;
-	min-width: 1024px\0/;
-	*min-width: 1024px;
 	padding: 10px;
+}
+/* IE7 */
+*+html .l-main {
+	min-width: 1024px;
+}
+/* IE8 */
+@media \0screen {
+	.l-main {
+		min-width: 1024px;
+	}  
 }
 .l-side {
 	float: left;
