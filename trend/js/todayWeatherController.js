@@ -21,6 +21,7 @@ $(function() {
 			arr;
 
 		messageSel.addClass(HIDE_CLASS).html('');
+		sectionSel.html('');
 		resizeIframe();
 
 		inputSels = $(this).find('input[type="text"]'),
@@ -49,7 +50,6 @@ $(function() {
 			dataType   : 'jsonp',
 			beforeSend : function (jqXHR, settings) {
 				loadingSel.removeClass(HIDE_CLASS);
-				sectionSel.html('');
 			}
 		}).done(function (data, textStatus, jqXHR) {
 			loadingSel.addClass(HIDE_CLASS);
