@@ -4,7 +4,7 @@
 	padding: 15px;
 }
 .title {
-	font-size: 14px;
+	font-size: 0.875em;
 	font-weight: normal;
 	margin: 0;
 	padding: 0;
@@ -12,7 +12,7 @@
 }
 .sub {
 	display: block;
-	font-size: 12px;
+	font-size: 0.75em;
 	margin: 5px 0 10px 0;
 	text-align: center;
 }

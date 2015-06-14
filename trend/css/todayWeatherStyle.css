@@ -2,6 +2,12 @@
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
+.m-form-message,
+.m-form-label,
+.m-form-control,
+.m-button {
+	font-size: 0.75em;
+}
 .m-form-message.hide {
 	display: none;
 }
@@ -19,12 +25,13 @@
 	margin: 0 0 0 70px;
 }
 .section > .main .title {
-	font-size: 15px;
+	font-size: 0.938em;
 	margin: 8px 0 0 0;
 	padding: 0;
 }
 .section > .main .sub {
 	color: #999;
+	font-size: 0.75em;
 	margin: 0;
 	padding: 0;
 }
@@ -34,6 +41,7 @@
 }
 .section > .info > span {
 	display: inline-block;
+	font-size: 0.75em;
 }
 .section > .info > .label {
 	width: 100px;
